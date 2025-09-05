@@ -8,6 +8,8 @@ const RegisterProvider = ({children}) =>{
 
     const[data,handleSubmit] = useForm()
 
+
+
     return(
         <RegisterContext.Provider value={{handleSubmit}}>
             {children}
